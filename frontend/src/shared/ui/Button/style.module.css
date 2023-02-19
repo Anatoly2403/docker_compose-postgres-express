@@ -1,0 +1,12 @@
+.root {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--background);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.root:active {
+  transform: scale(98%);
+}

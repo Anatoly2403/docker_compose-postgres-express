@@ -1,0 +1,24 @@
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.index {
+  color: var(--text-grey);
+}
+
+.title {
+  width: 90%;
+  word-wrap: break-word;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:active {
+  transform: scale(88%);
+}

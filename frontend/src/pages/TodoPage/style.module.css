@@ -1,0 +1,43 @@
+.root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px;
+}
+
+.block_left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 350px;
+}
+
+.block_right {
+  min-height: 214px;
+  border-left: 2px solid var(--white);
+  padding-left: 26px;
+  width: 300px;
+  max-height: 800px;
+  overflow-x: scroll;
+}
+
+.block_right::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
+.empty {
+  min-height: 214px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.empty>span {
+  color: var(--text-grey);
+  width: 30px;
+}

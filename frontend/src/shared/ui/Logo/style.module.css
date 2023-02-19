@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  width: 91px;
+  height: 65px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 46px;
+}

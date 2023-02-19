@@ -1,0 +1,7 @@
+.root {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--grey);
+  padding: 10px;
+}
